@@ -261,3 +261,7 @@ p { margin-bottom: 14px; }
  .resume-action { border-left:0; padding:22px 0 0; border-top:1px solid var(--line); }
  .nav-links { top:64px; }
 }
+
+/* Compact section rhythm */
+@media screen{.section{padding-block:54px}.hero{padding:48px 0 22px}.hero-layout{gap:28px}.hero-art{min-height:300px}.hero-bottom{margin-top:24px;padding-top:16px}.section-head{margin-bottom:24px}.about-grid,.approach-layout,.experience-layout{column-gap:38px}.hero-actions{margin:22px 0}.academic-layout{gap:26px}.resume-panel{padding:28px}.contact-layout{gap:32px}}
+@media screen and (max-width:760px){.section{padding-block:38px}.hero{padding-top:32px}.hero-art{min-height:250px}.hero-bottom{margin-top:20px}.section-head{margin-bottom:20px}.resume-panel{padding:22px}}
